@@ -1,0 +1,108 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    text-align: center;
+}
+h1,h2{
+    font-weight: 300;
+
+}
+form{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+div> select{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(144, 141, 141);
+    font-size: 16px;
+}
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(144, 141, 141);
+    font-size: 16px;
+}
+
+#caption{
+    font-size: 12px;
+}
+
+#DOB{
+    margin-top: 20px;
+}
+
+.Brdtop{
+    margin-top: 20px;
+}
+
+.margin{
+    margin-top: 0px;
+}
+
+.labelSize{
+    width: max-content;
+    height: auto;
+}
+#Qualification{
+    margin-top: 20px;
+}
+
+#ImgUpload >input{
+    margin-top: 0px;
+    border: none;
+    height: 40px;
+}
+
+#ImgUpload{
+    margin-top: 20px;
+}
+#declaration{
+    padding: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    font-size: 17px;
+    width: 150px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 1);
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 5px;    
+}
+
+.fontclr{
+    color: rgba(0, 0, 0, 0.54);
+}
+/* captcha styling */
+table{
+    background: rgb(243, 243, 243) !important;
+    width: 300px;
+    padding-left: 20px;
+    border: 2px solid gray;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+#captchaIMG{
+    width: 90px;
+    height: 90px;
+}
+#checkbox{
+    height: 40px;
+    width: 40px;
+    margin-top: 0px !important;
+}
+#labelText{
+    font-size: larger;
+}

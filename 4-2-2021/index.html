@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset style="width: 500px;">
+            <legend>Your Details:</legend>
+            <label>Name: <input type="text" required="required"></label>
+            <br>
+            <label>Email: <input type="email" required="required"></label>
+        </fieldset>
+        <br>
+        <fieldset style="width: 500px;">
+            <legend>Your Review:</legend>
+            <label>How did you hear about us? <select name="Ref.">
+                <option value="facebook">Facebook</option>
+                <option value="friends">Friends</option>
+                <option value="twitter">Twitter</option>
+            </select>
+            <br>
+            <p>Would you visit again? <br>
+                <input type="radio" name="Answer" required="required">Yes
+                <input type="radio" name="Answer" required="required">No
+                <input type="radio" name="Answer" required="required">Maybe
+            </p>
+
+            <label>Comments: <br> <textarea name="" cols="40" rows="5"></textarea> </label>
+            <br>
+            <input type="checkbox" name="check_confirm">Sign me up for email updates
+            <br><input type="submit" value="Submit Review">
+        </fieldset>
+    </form>
+    
+</body>
+
+</html>

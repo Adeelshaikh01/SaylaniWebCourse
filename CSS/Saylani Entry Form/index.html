@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <title>Saylani Mass IT Training</title>
+</head>
+
+<body>
+    <div id="header">
+        <img src="Images/saylani-logo.png" alt="saylani-logo">
+        <h1>Saylani Mass Training & Job Creation Program</h1>
+        <h2>Registration / Entry Test Form</h2>
+    </div>
+    <div id="Form-Container">
+        <form>
+            <div id="flexDiv">
+                <div>
+                    <label for="courseSelected">Select Your Course*</label><br>
+                    <select name="courseSelected" required>
+                        <option selected disabled>Select Course</option>
+                        <option value="IT Essential Fsd">IT Essential Fsd</option>
+                        <option value="IT Essential Khi">IT Essential Khi</option>
+                    </select>
+                </div>
+                <div class="Brdtop">
+                    <label for="batchSelected">Select Your Batch*</label><br>
+                    <select name="batchSelected" required>
+                        <option selected>6</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <input type="text" name="StdName" placeholder="Your Name">
+                <label id="caption" class="fontclr">Max characters allowed: 18</label>
+            </div>
+            <div id="DOB">
+                <label for="DOBSelected">Date of Birth*</label><br>
+                <input class="margin" type="date" name="DateBirth" placeholder="Your Name">
+            </div>
+            <div class="Brdtop">
+                <label for="GenderSelected">Select Gender*</label><br>
+                <label><input class="labelSize" name="GenderSelected" value="Male" type="radio" />Male</label>
+                <label class="fontclr"><input class="labelSize" name="GenderSelected" value="Female" disabled
+                        type="radio" />Female</label>
+            </div>
+            <div>
+                <input type="number" name="CnicNo" min="0" max="9" placeholder="CNIC / B-Form*">
+                <label id="caption" class="fontclr">e.g 4230169456489</label>
+            </div>
+            <div>
+                <input type="text" name="FatherName" placeholder="Father Name">
+                <input type="number" name="FCnicNo" min="0" max="9" placeholder="Father's / Guardian's CNIC*">
+                <label id="caption" class="fontclr">e.g 4230169456489</label>
+                <input type="text" name="Address" placeholder="Full and Permanent Address*">
+                <input type="number" name="CellNo" placeholder="Cell Number*">
+                <label id="caption" class="fontclr">e.g 03112197221</label>
+                <input type="email" name="Email" placeholder="Email*">
+            </div>
+            <div id="Qualification">
+                <label for="QualificationSelected" class="fontclr">Last Qualification*</label><br>
+                <label><input class="labelSize" name="QualificationSelected" value="None" type="radio" />None</label>
+                <label><input class="labelSize" name="QualificationSelected" value="Matric"
+                        type="radio" />Matric</label>
+                <label><input class="labelSize" name="QualificationSelected" value="Matric"
+                        type="radio" />Intermediate</label>
+                <label><input class="labelSize" name="QualificationSelected" value="Matric"
+                        type="radio" />Bachelor</label>
+                <label><input class="labelSize" name="QualificationSelected" value="Matric"
+                        type="radio" />Master</label>
+            </div>
+            <div id="ImgUpload">
+                <label for="recentImg" class="fontclr">Upload your recent image (face front, without glasses and with a
+                    single-colored background) *</label>
+                <input type="file" name="recentImg" id="RenImg">
+            </div>
+            <label class="fontclr">Declaration Undertaking*</label><br>
+            <div id="declaration">
+                <ol>
+                    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the
+                        best of my knowledge. Further, I will abide by my all the establish and future regulation and
+                        policies of SWIT</li>
+                    <li>I hereby accept the responsibilites of the good conduct and guarantee that I will not be
+                        involved in any other activity, polical or ethic, but learning during my stay in the program.
+                    </li>
+                    <li>Defiance will render my admission cancelled at any point in time.</li>
+                    <li>Upon completion of course, I will complete the required project by SWIT.</li>
+                </ol>
+            </div>
+            <span><input class="agreement labelSize" type="checkbox" name="agreement">I agree with the above
+                terms.</span>
+
+            <div>
+                <table>
+                    <tr>
+                        <td><input id="checkbox" type="checkbox" name="notROBOT" required></td>
+                        <td><label for="notROBOT" id="labelText">I'm not a robot</label></td>
+                        <td align="center"><img src="Images/1024px-RecaptchaLogo.png" alt="reCAPTCHA-logo" id="captchaIMG"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

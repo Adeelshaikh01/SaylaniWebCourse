@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+</head>
+
+<body>
+    <!-- Navigation Start -->
+    <table border="1" align="center" cellpadding="15" style="background-color: khaki;">
+        <tr>
+            <td><a href="index.html">Step 1: Accounts</a></td>
+            <td><a href="personalInfo.html">Step 2: Personal Information</a></td>
+            <td style="background-color: green; color: white;">Step 3:Your Review</td>
+        </tr>
+    </table>
+    <!-- Navigation End -->
+    <!-- Form Start -->
+    <div align="center">
+        <form action="">
+            <fieldset align="center" style="width: 500px;">
+                <legend style="border: 2px dashed grey; padding: 10px;">Your Review</legend>
+                <div align="left">
+                    <label>How did you hear about us? <select name="Ref.">
+                        <option value="facebook">Facebook</option>
+                        <option value="friends">Friends</option>
+                        <option value="twitter">Twitter</option>
+                    </select>
+                    <br>
+                    <p>Would you visit again? <br>
+                        <input type="radio" name="Answer" required="required">Yes
+                        <input type="radio" name="Answer" required="required">No
+                        <input type="radio" name="Answer" required="required">Maybe
+                    </p>
+        
+                    <label>Comments: <br> <textarea name="" cols="40" rows="5"></textarea> </label>
+                    <br>
+                    <input type="checkbox" name="check_confirm">Sign me up for email updates
+                </div>
+                <a href="personalInfo.html"><img src="images/back.png" alt="back button" width="100" align="left" style="padding-top: 10px;"></a>
+                <a href="index.html"><img src="images/next.png" alt="next button" width="100" align="right" style="padding-top: 10px;"></a>        
+            </fieldset>
+        </form>
+    </div>
+    <!-- Form End -->
+</body>
+
+</html>

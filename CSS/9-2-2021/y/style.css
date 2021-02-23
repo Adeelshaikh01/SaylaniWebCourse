@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+  
+   color: yellow;
+   text-transform: lowercase;
+   text-shadow: -1px 1px 3px #000000;
+}
+
+
+input { 
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color: #0f0909;}
+    input.submit:hover {
+    background-color: #ff0404;}
+    input.submit:active {
+    background-color: chocolate;}
+    
+   
