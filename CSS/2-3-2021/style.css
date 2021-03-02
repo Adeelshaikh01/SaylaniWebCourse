@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table{
+        margin-top: 10px;
+        margin-left: 10px;
+}
+table{   
+    min-width: 360px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+h1{
+        margin: 10px 0;
+}
+th{
+        border-top: 1px solid grey;
+        border-bottom: 2px solid grey;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px;
+}
+
+td{
+        border-bottom: 1px solid grey;
+        text-transform: capitalize;
+        padding: 10px;
+        
+}
+td:hover{
+        background-color: tomato;
+        cursor: pointer;
+        padding: 5px px;
+}
+
+.amount{
+    text-align: right;
+}
+.effect{
+    background-color: rgba(128, 128, 128, 0.171);
+}

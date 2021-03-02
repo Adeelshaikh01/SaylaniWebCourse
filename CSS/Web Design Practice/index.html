@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="box">
+            <p>To Check out my webiste</p>
+           <span onclick="slide()">Click Here</span>
+        </div>
+    </div>
+    <!-- header section -->
+    <header>
+        <div class="row">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <div class="col-1">
+                <img src="images/Logo.png" width="150px">
+            </div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- JS Section -->
+    <script>
+        var main = document.getElementById("main")
+
+        function slide(){
+            main.style.transform = "translateY(-100%)";
+            main.style.transition = "transform 2s";
+        }
+    </script>
+</body>
+</html>

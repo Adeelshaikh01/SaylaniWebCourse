@@ -95,7 +95,9 @@
   background-image: url(Images/first-banner.jpg);
   width: 100%;
   height: 680px;
-  background-size: cover;
+  box-sizing: border-box;
+  background-size: 100%;
+  border: 2px solid black;
   background-repeat: no-repeat;
   margin-bottom: 10px;
 }
@@ -385,6 +387,7 @@ footer{
 
 #Orderlist{
   padding: 15px 0px;
+  list-style-position: inside;
 }
 #Orderlist ol>li{
   padding-bottom: 5px;
